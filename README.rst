@@ -18,7 +18,7 @@ Scripts for working with (EIDA) FDSN web services.
 Overview
 --------
 
-The `fdsnws_scripts` is a collection of next generation distributed data request tools that are based on FDSN [http://www.fdsn.org/webservices web services] and the EIDA [http://www.orfeus-eu.org/data/eida/eidaws/routing routing service].
+The `fdsnws_scripts` is a collection of next-generation distributed data request tools that are based on FDSN [http://www.fdsn.org/webservices web services] and the EIDA [http://www.orfeus-eu.org/data/eida/eidaws/routing routing service].
 
 You may use these tools to request
 
@@ -36,5 +36,5 @@ There are three tools here:
   #. `fdsnws2sds` supports requests for larger amounts of data, saving it in an SDS tree-like file system structure.
      (The SeisComP Data Structure is defined [http://www.seiscomp3.org/doc/jakarta/current/apps/slarchive.html here] and [https://www.seiscomp3.org/wiki/doc/applications/slarchive/SDS here].)
 
-  #. `fdsnws2seed` provides full SEED and dataless SEED using EIDA FDSN web services. Modern applications should use FDSN StationXML instead of SEED.
+  #. `fdsnws2seed` provides full SEED and dataless SEED using EIDA FDSN web services. Modern applications should use [http://www.fdsn.org/xml/station/ FDSN StationXML] instead of SEED.
 
